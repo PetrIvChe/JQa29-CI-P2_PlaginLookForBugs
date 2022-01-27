@@ -19,7 +19,7 @@ class StatisticsServiceTest {
         assertEquals(expected, actual);
     }
 
-    @Disabled
+    @Test
     void findMax10() {
         StatisticsService service = new StatisticsService();
 
